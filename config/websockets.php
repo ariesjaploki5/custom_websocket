@@ -27,7 +27,7 @@ return [
             'name' => 'Inventory',
             'key' => 'ABCDEF',
             'secret' => 'GHIJKLMN',
-            // 'path' => env('PUSHER_APP_PATH'),
+            'path' => env('PUSHER_APP_PATH'),
             'capacity' => null,
             'enable_client_messages' => false,
             'enable_statistics' => true,
